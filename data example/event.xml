@@ -1,0 +1,552 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+  <eventParameters publicID="smi:local/80aec8a8-ad4d-4cb4-94f9-635a20e42ae6">
+    <description>Created from SeismicHandler EVT format</description>
+    <event publicID="smi:local/1190325001">
+      <preferredOriginID>smi:local/c8f93045-646e-4443-81b0-15ad18289717</preferredOriginID>
+      <preferredMagnitudeID>smi:local/3d1031c5-750b-4a97-a78c-351db0556612</preferredMagnitudeID>
+      <type>earthquake</type>
+      <origin publicID="smi:local/c8f93045-646e-4443-81b0-15ad18289717">
+        <time>
+          <value>2019-03-25T19:51:43.128000Z</value>
+          <uncertainty>0.2</uncertainty>
+        </time>
+        <latitude>
+          <value>50.309</value>
+          <uncertainty>0.007104635999820136</uncertainty>
+        </latitude>
+        <longitude>
+          <value>12.326</value>
+          <uncertainty>0.007064488077183599</uncertainty>
+        </longitude>
+        <depth>
+          <value>13300.0</value>
+          <uncertainty>1890.0</uncertainty>
+        </depth>
+        <quality>
+          <usedStationCount>36</usedStationCount>
+        </quality>
+        <region>Rehau, German-Czech border region</region>
+        <originUncertainty>
+          <minHorizontalUncertainty>10.0</minHorizontalUncertainty>
+          <maxHorizontalUncertainty>10.0</maxHorizontalUncertainty>
+          <azimuthMaxHorizontalUncertainty>104.4</azimuthMaxHorizontalUncertainty>
+        </originUncertainty>
+        <arrival publicID="smi:local/384e01dc-7bbc-47b3-b1e9-18bdbb8a6518">
+          <pickID>smi:local/9afa4d3e-bd61-4f95-9fa5-99f0eefb3ff1</pickID>
+          <phase>Pg</phase>
+          <azimuth>19.17</azimuth>
+          <distance>0.615</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/4e965849-6089-42b2-86c0-eef7637ddcbb">
+          <pickID>smi:local/42656379-2709-4843-9ff2-cdfd88252afe</pickID>
+          <phase>Sg</phase>
+          <azimuth>3.76</azimuth>
+          <distance>0.055</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/b9974486-9c1d-4e4f-a40e-b2c0772f9b36">
+          <pickID>smi:local/7ea81b6b-9521-4ec2-bf30-2eb1dcbda128</pickID>
+          <phase>Pg</phase>
+          <azimuth>3.76</azimuth>
+          <distance>0.055</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/580dd874-e0f6-4ec8-b407-59a03122d7bc">
+          <pickID>smi:local/dde73ea7-92e0-4044-8135-7305f3f2c8a2</pickID>
+          <phase>Sg</phase>
+          <azimuth>355.97</azimuth>
+          <distance>0.523</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/2c1c512e-59d3-41ad-a117-ab8ad3dc5898">
+          <pickID>smi:local/73a951ed-c219-4537-a979-145f44da0650</pickID>
+          <phase>Pg</phase>
+          <azimuth>355.97</azimuth>
+          <distance>0.523</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/5a27bea5-2066-4a14-9a17-076395a1b859">
+          <pickID>smi:local/bf6a1bf8-8b15-4645-bd7b-46ec53cf6e22</pickID>
+          <phase>Sg</phase>
+          <azimuth>342.1</azimuth>
+          <distance>0.506</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/953beb42-e3ef-4800-b39f-d761501f1b24">
+          <pickID>smi:local/5b17a90e-164a-40e6-809e-4ce000eab99a</pickID>
+          <phase>Pg</phase>
+          <azimuth>342.1</azimuth>
+          <distance>0.506</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/b8c9137e-8ab5-4aba-96a0-8417b3f5c88b">
+          <pickID>smi:local/47e6057b-935a-4ccf-9593-e189471165f1</pickID>
+          <phase>Sg</phase>
+          <azimuth>306.79</azimuth>
+          <distance>0.565</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/473f57e6-9a5b-4aab-9b1d-ffda7fe6c4e5">
+          <pickID>smi:local/fd19c095-eed4-470b-96c5-535430d61ab8</pickID>
+          <phase>Pg</phase>
+          <azimuth>306.79</azimuth>
+          <distance>0.565</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/b735ef6a-1214-4148-b45a-6d73c2f68d76">
+          <pickID>smi:local/3734b3ce-0441-4a7f-b919-9428a14978e0</pickID>
+          <phase>Sg</phase>
+          <azimuth>134.1</azimuth>
+          <distance>0.109</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/c101d2f2-8cf3-4c9c-a7b4-a83c70480294">
+          <pickID>smi:local/52528e0d-9d66-4a25-a7be-a7e50eb44955</pickID>
+          <phase>Pg</phase>
+          <azimuth>134.1</azimuth>
+          <distance>0.109</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/04bede28-be39-412c-aae7-cc2e27de8bcc">
+          <pickID>smi:local/7a225db0-8999-4388-b082-e5af2fe84b30</pickID>
+          <phase>Sg</phase>
+          <azimuth>328.61</azimuth>
+          <distance>0.207</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/0e0cc33c-1358-4b50-a340-dc6afbc4f9ff">
+          <pickID>smi:local/5afc9089-da81-4512-987b-70437cf40b40</pickID>
+          <phase>Pg</phase>
+          <azimuth>328.61</azimuth>
+          <distance>0.207</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/e2ce2c1a-466a-473c-bd58-8da18a61a43b">
+          <pickID>smi:local/c173b809-d0fb-4a81-b571-d4769dd58061</pickID>
+          <phase>Pg</phase>
+          <azimuth>306.31</azimuth>
+          <distance>0.602</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/84355b6a-ce98-4668-ac26-ec19397da6db">
+          <pickID>smi:local/3749be2c-b4aa-4917-b839-2e20e393411c</pickID>
+          <phase>Sg</phase>
+          <azimuth>7.58</azimuth>
+          <distance>0.372</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/6f057616-8820-4d6b-acd1-09de548802ed">
+          <pickID>smi:local/00e79bfd-b1e8-4bf7-8a67-4ca3db18481e</pickID>
+          <phase>Pg</phase>
+          <azimuth>7.58</azimuth>
+          <distance>0.372</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/41cfe211-b807-43a8-99ac-5fae4ecbb78b">
+          <pickID>smi:local/2ff7e5b0-53f0-4840-b6b9-32b5f9a29eeb</pickID>
+          <phase>Sg</phase>
+          <azimuth>39.12</azimuth>
+          <distance>0.137</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/03d704fb-a048-44a0-b5a2-a8ff1c5a2430">
+          <pickID>smi:local/3e700611-83b1-47de-98f1-58aa66b3f7eb</pickID>
+          <phase>Pg</phase>
+          <azimuth>39.12</azimuth>
+          <distance>0.137</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/aa03cbcd-639c-4b77-bca5-5b0e046dba56">
+          <pickID>smi:local/c6db393f-8f69-4452-9266-3b9dfd0429e8</pickID>
+          <phase>Sg</phase>
+          <azimuth>289.64</azimuth>
+          <distance>0.129</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/b7064397-da71-479f-b3ca-cb662d4060fa">
+          <pickID>smi:local/9c93f4b9-7862-47ff-8822-76c2b7597591</pickID>
+          <phase>Pg</phase>
+          <azimuth>289.64</azimuth>
+          <distance>0.129</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/3c188aff-8124-47e3-b22c-937ccd943963">
+          <pickID>smi:local/1d444305-5aba-4ab8-a294-88e18cedb3c9</pickID>
+          <phase>Sg</phase>
+          <azimuth>354.84</azimuth>
+          <distance>0.139</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/28fb73c5-346d-489d-bfe0-c849020487e9">
+          <pickID>smi:local/7a42680f-f7a0-4734-8587-af7527c90c55</pickID>
+          <phase>Pg</phase>
+          <azimuth>354.84</azimuth>
+          <distance>0.139</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/1cffc8d0-c20d-48f6-9746-121835ba80ef">
+          <pickID>smi:local/db051eb7-fdaa-4f4b-9f97-e6e7b961b094</pickID>
+          <phase>Sg</phase>
+          <azimuth>123.92</azimuth>
+          <distance>0.039</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/8d09f9b3-3049-4664-8450-b8fb70531183">
+          <pickID>smi:local/5a558e9a-cf88-48e9-91c9-4e91f9f7ff89</pickID>
+          <phase>Pg</phase>
+          <azimuth>123.92</azimuth>
+          <distance>0.039</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/8793b830-9dc5-47de-a87c-1a2ed20ee8c7">
+          <pickID>smi:local/dd0cca1f-11a8-46b2-b3fa-c5f94fc56e53</pickID>
+          <phase>Sg</phase>
+          <azimuth>288.23</azimuth>
+          <distance>0.748</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/cbc1748a-3f30-4541-aedf-80ac3e6e2abc">
+          <pickID>smi:local/0666a497-6b91-40bf-a44b-85ff9311a377</pickID>
+          <phase>Pg</phase>
+          <azimuth>288.23</azimuth>
+          <distance>0.748</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/e46148b7-f2e4-4b10-8597-acba6079d0ca">
+          <pickID>smi:local/dc5e4771-7122-4b61-850e-35f3aafcc6ae</pickID>
+          <phase>Sg</phase>
+          <azimuth>328.53</azimuth>
+          <distance>0.425</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/3e12ad73-500c-40ba-8fcd-0357abc3a3e0">
+          <pickID>smi:local/b975bebb-b59d-4279-98a1-d0fede390bd9</pickID>
+          <phase>Pg</phase>
+          <azimuth>328.53</azimuth>
+          <distance>0.425</distance>
+          <timeWeight>4.0</timeWeight>
+        </arrival>
+      </origin>
+      <magnitude publicID="smi:local/3d1031c5-750b-4a97-a78c-351db0556612">
+        <mag>
+          <value>2.1</value>
+        </mag>
+        <type>ML</type>
+      </magnitude>
+      <stationMagnitude publicID="smi:local/233f62f4-eb28-4028-8307-4bbe7b23f998">
+        <originID>None</originID>
+        <mag>
+          <value>2.3</value>
+        </mag>
+        <type>ML</type>
+        <waveformID networkCode="TH" stationCode="HKWD" locationCode="" channelCode="HHZ"></waveformID>
+      </stationMagnitude>
+      <stationMagnitude publicID="smi:local/02807769-b6ef-40fb-8855-d58f6781ac74">
+        <originID>None</originID>
+        <mag>
+          <value>1.9</value>
+        </mag>
+        <type>ML</type>
+        <waveformID networkCode="TH" stationCode="MLFH" locationCode="" channelCode="HHZ"></waveformID>
+      </stationMagnitude>
+      <stationMagnitude publicID="smi:local/66411325-40ae-4e6a-bbd7-c1c3fd01cc5f">
+        <originID>None</originID>
+        <mag>
+          <value>1.7</value>
+        </mag>
+        <type>ML</type>
+        <waveformID networkCode="GR" stationCode="MOX" locationCode="" channelCode="HHZ"></waveformID>
+      </stationMagnitude>
+      <stationMagnitude publicID="smi:local/640909ba-9edd-44db-9bb1-823817e7404d">
+        <originID>None</originID>
+        <mag>
+          <value>2.1</value>
+        </mag>
+        <type>ML</type>
+        <waveformID networkCode="SX" stationCode="SCHF" locationCode="" channelCode="HHZ"></waveformID>
+      </stationMagnitude>
+      <pick publicID="smi:local/9afa4d3e-bd61-4f95-9fa5-99f0eefb3ff1">
+        <time>
+          <value>2019-03-25T19:51:54.745000Z</value>
+        </time>
+        <waveformID networkCode="TH" stationCode="ANNA" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/42656379-2709-4843-9ff2-cdfd88252afe">
+        <time>
+          <value>2019-03-25T19:51:47.627000Z</value>
+        </time>
+        <waveformID networkCode="SX" stationCode="GUNZ" locationCode="" channelCode="HHN"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/7ea81b6b-9521-4ec2-bf30-2eb1dcbda128">
+        <time>
+          <value>2019-03-25T19:51:45.845000Z</value>
+        </time>
+        <waveformID networkCode="SX" stationCode="GUNZ" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/dde73ea7-92e0-4044-8135-7305f3f2c8a2">
+        <time>
+          <value>2019-03-25T19:52:00.645000Z</value>
+        </time>
+        <waveformID networkCode="TH" stationCode="HKWD" locationCode="" channelCode="HHN"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/73a951ed-c219-4537-a979-145f44da0650">
+        <time>
+          <value>2019-03-25T19:51:53.482000Z</value>
+        </time>
+        <waveformID networkCode="TH" stationCode="HKWD" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/bf6a1bf8-8b15-4645-bd7b-46ec53cf6e22">
+        <time>
+          <value>2019-03-25T19:51:59.830000Z</value>
+        </time>
+        <waveformID networkCode="TH" stationCode="MLFH" locationCode="" channelCode="HHN"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/5b17a90e-164a-40e6-809e-4ce000eab99a">
+        <time>
+          <value>2019-03-25T19:51:53.028000Z</value>
+        </time>
+        <waveformID networkCode="TH" stationCode="MLFH" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/47e6057b-935a-4ccf-9593-e189471165f1">
+        <time>
+          <value>2019-03-25T19:52:01.863000Z</value>
+        </time>
+        <waveformID networkCode="GR" stationCode="MOX" locationCode="" channelCode="HHE"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/fd19c095-eed4-470b-96c5-535430d61ab8">
+        <time>
+          <value>2019-03-25T19:51:54.196000Z</value>
+        </time>
+        <waveformID networkCode="GR" stationCode="MOX" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/3734b3ce-0441-4a7f-b919-9428a14978e0">
+        <time>
+          <value>2019-03-25T19:51:48.325000Z</value>
+        </time>
+        <waveformID networkCode="CZ" stationCode="NKC" locationCode="" channelCode="HHE"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/52528e0d-9d66-4a25-a7be-a7e50eb44955">
+        <time>
+          <value>2019-03-25T19:51:46.327000Z</value>
+        </time>
+        <waveformID networkCode="CZ" stationCode="NKC" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/7a225db0-8999-4388-b082-e5af2fe84b30">
+        <time>
+          <value>2019-03-25T19:51:50.876000Z</value>
+        </time>
+        <waveformID networkCode="TH" stationCode="PLN" locationCode="" channelCode="HHN"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/5afc9089-da81-4512-987b-70437cf40b40">
+        <time>
+          <value>2019-03-25T19:51:47.699000Z</value>
+        </time>
+        <waveformID networkCode="TH" stationCode="PLN" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/c173b809-d0fb-4a81-b571-d4769dd58061">
+        <time>
+          <value>2019-03-25T19:51:54.896000Z</value>
+        </time>
+        <waveformID networkCode="TH" stationCode="RANIS" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/3749be2c-b4aa-4917-b839-2e20e393411c">
+        <time>
+          <value>2019-03-25T19:51:55.616000Z</value>
+        </time>
+        <waveformID networkCode="SX" stationCode="SCHF" locationCode="" channelCode="HHE"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/00e79bfd-b1e8-4bf7-8a67-4ca3db18481e">
+        <time>
+          <value>2019-03-25T19:51:50.534000Z</value>
+        </time>
+        <waveformID networkCode="SX" stationCode="SCHF" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/2ff7e5b0-53f0-4840-b6b9-32b5f9a29eeb">
+        <time>
+          <value>2019-03-25T19:51:48.958000Z</value>
+        </time>
+        <waveformID networkCode="SX" stationCode="TANN" locationCode="" channelCode="HHE"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/3e700611-83b1-47de-98f1-58aa66b3f7eb">
+        <time>
+          <value>2019-03-25T19:51:46.625000Z</value>
+        </time>
+        <waveformID networkCode="SX" stationCode="TANN" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/c6db393f-8f69-4452-9266-3b9dfd0429e8">
+        <time>
+          <value>2019-03-25T19:51:48.911000Z</value>
+        </time>
+        <waveformID networkCode="SX" stationCode="TRIB" locationCode="" channelCode="HHN"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/9c93f4b9-7862-47ff-8822-76c2b7597591">
+        <time>
+          <value>2019-03-25T19:51:46.584000Z</value>
+        </time>
+        <waveformID networkCode="SX" stationCode="TRIB" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/1d444305-5aba-4ab8-a294-88e18cedb3c9">
+        <time>
+          <value>2019-03-25T19:51:48.929000Z</value>
+        </time>
+        <waveformID networkCode="SX" stationCode="WERD" locationCode="" channelCode="HHE"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/7a42680f-f7a0-4734-8587-af7527c90c55">
+        <time>
+          <value>2019-03-25T19:51:46.668000Z</value>
+        </time>
+        <waveformID networkCode="SX" stationCode="WERD" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/db051eb7-fdaa-4f4b-9f97-e6e7b961b094">
+        <time>
+          <value>2019-03-25T19:51:47.453000Z</value>
+        </time>
+        <waveformID networkCode="SX" stationCode="WERN" locationCode="" channelCode="HHE"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/5a558e9a-cf88-48e9-91c9-4e91f9f7ff89">
+        <time>
+          <value>2019-03-25T19:51:45.767000Z</value>
+        </time>
+        <waveformID networkCode="SX" stationCode="WERN" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/dd0cca1f-11a8-46b2-b3fa-c5f94fc56e53">
+        <time>
+          <value>2019-03-25T19:52:07.309000Z</value>
+        </time>
+        <waveformID networkCode="TH" stationCode="WESF" locationCode="" channelCode="HHE"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/0666a497-6b91-40bf-a44b-85ff9311a377">
+        <time>
+          <value>2019-03-25T19:51:57.654000Z</value>
+        </time>
+        <waveformID networkCode="TH" stationCode="WESF" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/dc5e4771-7122-4b61-850e-35f3aafcc6ae">
+        <time>
+          <value>2019-03-25T19:51:57.190000Z</value>
+        </time>
+        <waveformID networkCode="TH" stationCode="ZEU" locationCode="" channelCode="HHN"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+      <pick publicID="smi:local/b975bebb-b59d-4279-98a1-d0fede390bd9">
+        <time>
+          <value>2019-03-25T19:51:51.601000Z</value>
+        </time>
+        <waveformID networkCode="TH" stationCode="ZEU" locationCode="" channelCode="HHZ"></waveformID>
+        <filterID>smi:local/SHM_HP_6HZ_3</filterID>
+        <onset>emergent</onset>
+        <phaseHint>L</phaseHint>
+        <evaluationMode>manual</evaluationMode>
+      </pick>
+    </event>
+  </eventParameters>
+</q:quakeml>
