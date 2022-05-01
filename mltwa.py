@@ -243,6 +243,7 @@ for pick in sta_pick:
             station_q={}
             evid=pick[0]
             sta=pick[1]
+            dist=pick[3]
             if dist >= dist_limit:
                 print('Skip Station {} at Event {}, {} km distance is exceeded'.format(sta,evid,dist_limit))
                 continue
